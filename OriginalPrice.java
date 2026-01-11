@@ -6,8 +6,9 @@ public class OriginalPrice {
         double DSP=input.nextDouble();
         System.out.print("Enter Discouunt Percentage : ");
         double DP=input.nextDouble();
-        double OP=DSP*(100/DP);
+        double OP=DSP/(1-(DP/100));
         System.out.print("Original Price Is : "+OP);
 
     }
 }
+
