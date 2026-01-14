@@ -9,6 +9,8 @@ public class AREA {
         double b = input.nextDouble();
         double K = (a+b)/2*h;
         System.out.print("Area Of Trapezoid Is : "+K);
+        input.close();
     }
     
 }
+
