@@ -5,11 +5,12 @@ public class percentage {
         double im;
         int Tm;
         double p;
-        System.out.print("Enter your Marks Optained");
+        System.out.print("Enter your Marks Obtained : ");
         im = input.nextDouble();
-        System.out.print("Enter your Total Marks");
+        System.out.print("Enter your Total Marks : ");
         Tm = input.nextInt();
         p = (im/Tm)* 100;
         System.out.println(p+"%");
+        input.close();
     }
 }
