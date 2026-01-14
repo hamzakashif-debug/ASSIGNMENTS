@@ -11,7 +11,9 @@ public class circle {
         A = 3.14159*(R*R);
         System.out.println("your circumference is"+C);
         System.out.println("Your area is"+A);
+        input.close();
 
     }
 
 }
+
