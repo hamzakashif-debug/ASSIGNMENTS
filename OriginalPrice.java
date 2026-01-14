@@ -8,7 +8,9 @@ public class OriginalPrice {
         double DP=input.nextDouble();
         double OP=DSP/(1-(DP/100));
         System.out.print("Original Price Is : "+OP);
+        input.close();
 
     }
 }
+
 
