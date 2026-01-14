@@ -7,7 +7,9 @@ public class POWER {
         System.out.print("ENTER AMMETER READING : ");
         double I = input.nextDouble();
         double P = I*V;
-        System.out.print("Your Calculated Power Is "+ P + "W"); 
+        System.out.print("Your Calculated Power Is "+ P + "W");
+        input.close();
     
     }
 }
+
