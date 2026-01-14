@@ -11,7 +11,9 @@ public class Discount {
         DP=input.nextDouble();
         DSP=OP-(OP*DP/100);
         System.out.println("Your Discounted Price is "+DSP);
+        input.close();
 
     }
 
 }
+
